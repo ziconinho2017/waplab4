@@ -1,0 +1,43 @@
+#container {
+    width : 70%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    border: 1px solid black;
+}
+#container-header {
+    display: grid;
+    padding: 5px;
+    height: 6%;
+    background-color: #A0C2A0;
+}
+#container-body {
+    padding-right: 15px;
+    display: grid;
+    height: 77%;
+    grid-template-columns: 20% 30% 20% 30%;
+    grid-template-rows: auto;
+}
+.grid-item {
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+}
+#container-footer {
+    vertical-align: baseline;
+    height: 6%;
+    background-color: #CFDCCF;
+    text-align: center;
+}
+#mandatory {
+    color: red;
+}
+#btnSubmit {
+    width: 100px;
+    height: 40px;
+}
+#btnReset {
+    width: 100px;
+    height: 40px;
+}

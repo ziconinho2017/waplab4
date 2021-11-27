@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div id="container">
+            <div id="container-header">
+                <h4>Workshop Registration</h4>
+            </div>
+            <h4>Register now while seats are available</h4>
+            <div id="container-body">
+                <div class="grid-item">First Name<span id="mandatory">*</span></div>
+                <div class="grid-item"><input type="text" name="firstname" id="firstname"/></div>
+                <div class="grid-item">Lunch</div>
+                <div class="grid-item"></div>
+                <div class="grid-item">Last Name<span id="mandatory">*</span></div>
+                <div class="grid-item"><input type="text" name="lastname" id="lastname"/></div>
+                <div class="grid-item">Meal Preference</div>  
+                <div class="grid-item">
+                <select name="meal" id="meal">
+                    <option value="Veg">Veg</option>
+                    <option value="Non-Veg">Non-Veg</option>
+                </select>
+                </div>
+                <div class="grid-item">Company/Institution<span id="mandatory">*</span></div>
+                <div class="grid-item"><input type="text" name="company" id="company"/></div>
+                <div class="grid-item">Payment Details<span id="mandatory">*</span></div>  
+                <div class="grid-item"></div>
+                <div class="grid-item">Address<span id="mandatory">*</span></div>
+                <div class="grid-item"><textarea name="address" id="address"></textarea></div>
+                <div class="grid-item">Payment Method<span id="mandatory">*</span></div>  
+                <div class="grid-item">
+                    <input type="radio" name="method" id="cash"/>Cash
+                    <input type="radio" name="method" id="cheque"/>Cheque
+                    <input type="radio" name="method" id="demand"/>Demand Draft
+                </div>
+                <div class="grid-item">City</div>
+                <div class="grid-item"><input type="text" name="city" id="city"/></div>
+                <div class="grid-item">DD/Cheque No</div>  
+                <div class="grid-item"><input type="text" name="chequeno" id="chequeno"/></div>
+                <div class="grid-item">State/Province/Region</div>
+                <div class="grid-item">
+                    <select name="state" id="state">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IO">Iowa</option>
+                    </select>
+                </div>
+                <div class="grid-item">Drawn on (Bank Name)</div>  
+                <div class="grid-item"><input type="text" name="bankname" id="bankname"/></div>
+                <div class="grid-item">Country</div>
+                <div class="grid-item">
+                    <select name="country" id="country">
+                        <option value="Afganistan">Afghanistan</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Anguilla">Anguilla</option>
+                        <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Cote DIvoire">Cote DIvoire</option>
+                        <option value="Croatia">Croatia</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Czech Republic">Czech Republic</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="Falkland Islands">Falkland Islands</option>
+                        <option value="Faroe Islands">Faroe Islands</option>
+                        <option value="Fiji">Fiji</option>
+                        <option value="Finland">Finland</option>
+                        <option value="France">France</option>
+                        <option value="French Guiana">French Guiana</option>
+                        <option value="French Polynesia">French Polynesia</option>
+                        <option value="French Southern Ter">French Southern Ter</option>
+                        <option value="Gabon">Gabon</option>
+                        <option value="Gambia">Gambia</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Great Britain">Great Britain</option>
+                        <option value="Greece">Greece</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Guinea">Guinea</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Hong Kong">Hong Kong</option>
+                        <option value="Hungary">Hungary</option>
+                        <option value="Iceland">Iceland</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="India">India</option>
+                    </select>
+                </div>
+                <div class="grid-item">Payable at</div>  
+                <div class="grid-item"><input type="text" name="bankname" id="bankname"/></div>
+                <div class="grid-item">Email<span id="mandatory">*</span></div>
+                <div class="grid-item"><input type="text" name="city" id="city"/></div>
+                <div class="grid-item"></div>  
+                <div class="grid-item"></div>
+                <div class="grid-item">Phone no<span id="mandatory">*</span></div>
+                <div class="grid-item"><input type="text" name="city" id="city"/></div>
+                <div class="grid-item"></div>  
+                <div class="grid-item"></div>
+            </div>
+            <div id="container-footer">
+                <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit"/>
+                <input type="reset" name="btnReset" id="btnReset" value="Reset"/>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
